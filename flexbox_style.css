@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300&display=swap');
+*{
+  font-family: 'Lora', serif;
+  /* font-family: 'Poppins', sans-serif;  */
+}
+.container {
+    margin: 30px;
+    width: 1170px;
+    height: 80vh;
+    display: flex ;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   gap: 10px;
+}
+
+h4{
+    text-align: center;
+}
+.box{
+    height: 230px;
+    width: 310px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+#box1{
+    background-color: #FFE5C6;
+    flex-grow: 1;
+    color: rgb(248, 124, 208);
+    font-size: 80px;
+    font-weight: bold;
+}
+#box2{
+    background-color: #E7CFFF;
+    flex-grow: 2.5;
+}
+#box2 img{
+    /* height: 160px; */
+    width: 400px;
+    padding-top: 50px;
+    
+}
+#box3{
+    background-color: #C6F8FF;
+}
+#box3 img{
+    height: 120px;
+    /* width: 120px; */
+    padding-top: 50px;
+    
+}
+#box4{
+    background-color: #FFCFCF;
+    flex-grow: 2.5;
+}
+#box4 img{
+    width: 400px;
+    padding-top: 50px;
+ }
+#box5{
+    background-color:#FBCEFF;
+}
+#box5 img{
+    height: 120px;
+    /* width: 130px; */
+    padding-top: 50px;
+}
+#box6{
+    background-color: #E9FFC6;
+    flex-grow: 1;
+    color: #cb9afd;
+    font-size: 80px;
+    font-weight: bold;
+}
