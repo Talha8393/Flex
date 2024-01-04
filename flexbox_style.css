@@ -84,15 +84,21 @@
 @media only screen and (max-width: 1150px) {
     .container{
         width: 95vw;
-        justify-content: center;
-        align-items: center;
        }
       
 }
 @media only screen and (max-width: 426px){
     .container{
-        width: 95vw;
-        justify-content: center;
-        align-items: center;
+        width: 90vw;
+    
        }
 }
+@media only screen and (min-width: 1335px)  {
+    .container{
+        width: 90vw;
+       }
+       .box{
+        height: 240px;
+        width: 25vw;
+       }
+    }
