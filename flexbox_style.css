@@ -4,9 +4,9 @@
   /* font-family: 'Poppins', sans-serif;  */
 }
 .container {
-    margin: 30px;
-    width: 1170px;
-    height: 80vh;
+    margin: 2vh auto;
+    width: 95vw;
+    height: 90vh;
     display: flex ;
     flex-wrap: wrap;
    justify-content: center;
@@ -14,11 +14,8 @@
    gap: 10px;
 }
 
-h4{
-    text-align: center;
-}
 .box{
-    height: 230px;
+    height: 240px;
     width: 310px;
     text-align: center;
     justify-content: center;
@@ -73,4 +70,29 @@ h4{
     color: #cb9afd;
     font-size: 80px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 768px  ) {
+   .container{
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+   }
+  
+}
+
+@media only screen and (max-width: 1150px) {
+    .container{
+        width: 95vw;
+        justify-content: center;
+        align-items: center;
+       }
+      
+}
+@media only screen and (max-width: 426px){
+    .container{
+        width: 95vw;
+        justify-content: center;
+        align-items: center;
+       }
 }
